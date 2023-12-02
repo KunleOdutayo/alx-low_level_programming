@@ -7,7 +7,7 @@
 #include <unistd.h>
 
 ssize_t read_textfile(const char *fileID, size_t alphabet);
-int create_file(const char *fileID, char *text_content);
-int append_text_to_file(const char *fileID, char *text_content);
+int create_file(const char *fileID, char *text_data);
+int append_text_to_file(const char *fileID, char *text_data);
 
 #endif
